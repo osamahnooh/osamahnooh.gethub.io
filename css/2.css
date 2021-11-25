@@ -1,0 +1,25 @@
+nav{
+    list-style:none ;
+    background-color: rgb(124, 54, 52);;
+    padding: 10pt;
+    margin-top: 70px ;
+    
+}
+a{
+    text-decoration: none;
+    display: inline;
+    padding: 10pt;
+    color: white;
+}   
+#i{
+    padding: inherit;
+    background-color: lawngreen;
+}
+a:hover:not(.a){
+    background-color: rgb(212, 230, 238);;
+    color: black;
+}
+.a{
+    background-color: rgb(212, 230, 238);;
+    color: black;
+}

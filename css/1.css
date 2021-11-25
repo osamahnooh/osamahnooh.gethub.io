@@ -1,0 +1,92 @@
+.photo{
+    width: 200px;
+    height: 200px;
+    border-radius:100  ;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(124, 54, 52);
+    float: left;
+}
+header{
+   background-color: rgb(165, 165, 164);
+   padding: 20px;
+   height: 250px;
+}
+ 
+.personal-title{
+    width: 40%;
+    color: rgb(124, 54, 52);
+text-align: center;
+    margin-left: 40%;
+    float: left;
+}
+.info{
+    border-bottom-style: solid;
+    border-bottom-color: rgb(124, 54, 52);
+    height: 150px;
+    padding-left: 100px;
+}
+.p-data{
+    float: left;
+    margin-left: 100px;
+
+}
+.right{
+    width: 77%;
+    height: 600px;
+    margin: 2px;
+    background-color: rgb(212, 230, 238);
+    float: right;
+}
+.left{
+    width: 20%;
+    height: 600px;
+    margin: 2px;
+    background-color: rgb(165, 164, 164);
+    float: left;
+}
+.skills{
+    background-color: rgb(212, 230, 238);
+    padding: 5px;
+    margin: 2px;
+}
+.skills2{
+    background-color: rgb(165, 164, 164);
+    padding: 5px;
+    margin: 4px;
+}
+.p1{
+    margin: 10px;
+}
+
+
+
+
+
+@media (max-width:991px) {
+    rhtml{
+        font-size: 55%;
+    }
+    body{
+        padding: 0;
+    }
+    #menu-dars{
+        display: initial;
+    }
+    header{
+        left:-120%;
+    }
+    header.active{
+        left: 0%;
+    }
+    
+
+
+
+
+
+
+
+
+    
+}
